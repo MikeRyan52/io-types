@@ -1,5 +1,5 @@
 # io-types for Angular 2 Components
-## Run Time Type Checking for Inputs/Outputs
+### Run Time Type Checking for Inputs/Outputs
 
 _Please note that io-types is currently proof-of-concept._
 

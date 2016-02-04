@@ -41,6 +41,8 @@ gulp.task('build', ['babel'], function(){
   return gulp.src([
       './release/cjs/**/*.js',
       './release/definitions/**/*.d.ts',
+      '!**/*.spec.d.ts',
+      '!**/*.spec.js',
       './package.json',
       './README.md'
     ])
